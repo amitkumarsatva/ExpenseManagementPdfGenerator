@@ -1,5 +1,5 @@
 # -------- BASE RUNTIME (Playwright included) --------
-FROM mcr.microsoft.com/playwright/dotnet:v1.42.0-jammy AS base
+FROM mcr.microsoft.com/playwright/dotnet:v1.58.0-jammy AS base
 WORKDIR /app
 ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
